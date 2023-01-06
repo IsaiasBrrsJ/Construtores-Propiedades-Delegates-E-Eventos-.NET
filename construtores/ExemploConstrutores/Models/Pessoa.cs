@@ -7,8 +7,8 @@ namespace ExemploConstrutores.Models
 {
     public class Pessoa
     {
-        private string nome;
-        private string sobrenome;
+        private readonly string nome; //readonly so posso passar valor aqui ou dentro do construtor
+        private readonly string sobrenome;
 
         //Caso eu não tenha nenhum um construtor criado ele cria um padrão.
         // public Pessoa() //Construtor vazio
