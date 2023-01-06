@@ -10,5 +10,9 @@
 // Console.WriteLine(log2.PropiedadeLog);
 
 
-Aluno aluno = new Aluno("Isaias", "Barros", "Matemática");
-aluno.Apresentar();
+// Aluno aluno = new Aluno("Isaias", "Barros", "Matemática");
+// aluno.Apresentar();
+
+Data data = new Data();
+data.Mes = 11;
+data.ApresentarMes();
